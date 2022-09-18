@@ -22,6 +22,7 @@ conn = sqlite3.connect('ETF_list.db')
 cursor = conn.cursor()
 
 
+
 conn.execute('''CREATE TABLE if not exists ETF_data
        (Date date ,
        Number TEXT ,
