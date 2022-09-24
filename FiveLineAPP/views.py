@@ -77,6 +77,8 @@ line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
 parser = WebhookParser(settings.LINE_CHANNEL_SECRET)
 your_ID = 'U6658ff60e29de21166347e537c9b2f65'
 
+
+#123
 @csrf_exempt
 def callback(request):
  
